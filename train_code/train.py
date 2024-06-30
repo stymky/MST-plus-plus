@@ -11,7 +11,6 @@ from architecture import *
 from utils import AverageMeter, initialize_logger, save_checkpoint, record_loss, \
     time2file_name, Loss_MRAE, Loss_RMSE, Loss_PSNR
 import datetime
-import pandas as pd
 
 parser = argparse.ArgumentParser(description="Spectral Recovery Toolbox")
 parser.add_argument('--method', type=str, default='mst_plus_plus')
